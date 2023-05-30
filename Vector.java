@@ -1,11 +1,11 @@
 import java.util.Arrays;
 
-public class Vetor {
+public class Vector {
 
     private String[] elements;
     private int size;
 
-    public Vetor(int capacity) {
+    public Vector(int capacity) {
         this.elements = new String[capacity];
         this.size = 0;
     }
@@ -98,7 +98,7 @@ public class Vetor {
 
     public static void main(String[] args) throws Exception {
 
-        Vetor vetor = new Vetor(2);
+        Vector vetor = new Vector(2);
 
         vetor.add("Element 0");
         vetor.add("Element 1");
